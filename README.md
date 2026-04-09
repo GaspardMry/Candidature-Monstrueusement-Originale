@@ -1,4 +1,4 @@
-# 👨🏽‍💻 Human Risk Analytics
+# 👨🏽‍💻 Présentation de la bête avec un B majuscule
 
 ### Modélisation quantitative d'un profil atypique
 
