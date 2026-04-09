@@ -1,6 +1,6 @@
 # 👨🏽‍💻 Présentation de la bête avec un B majuscule
 
-### Modélisation quantitative d'un profil atypique
+### Modélisation quantitative de mon profil
 
 [![Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://python.org)
