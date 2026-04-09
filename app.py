@@ -1,8 +1,8 @@
 """
 app.py — Point d'entrée du dashboard Human Risk Analytics.
 
-Human Risk Analytics — Modélisation quantitative d'un profil atypique.
-Applique les concepts du Market Risk (VaR, Stress Tests, Greeks, Capture Ratios)
+Pourquoi Moi ? — Modélisation quantitative de mon profil quelque peu "atypique".
+Application des concepts de Market Risk (VaR, Stress Tests, Greeks, Capture Ratios)
 à des métriques personnelles modélisées comme des actifs financiers.
 
 Lancement : streamlit run app.py
@@ -21,7 +21,7 @@ from components import overview, var_tab, stress_tab, greeks_tab, market_tab, ri
 
 # ── Configuration de la page ──────────────────────────────────────────
 st.set_page_config(
-    page_title="Human Risk Analytics",
+    page_title="Pourquoi Moi ?",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -57,11 +57,11 @@ with st.sidebar:
     <div style="background: {COLORS['bg_lighter']}; padding: 12px; border-radius: 8px; margin-bottom: 15px;">
         <p style="color: {COLORS['cyan']}; font-family: 'Courier New'; font-size: 0.75em; margin: 0;">
             > PROFIL : Gaspard Méray<br>
-            > STATUT : Candidat atypique<br>
-            > OBJECTIF : Stage Market Risk<br>
-            > ORIGINE : Lasson, Normandie<br>
-            > BAC : 10.25/20<br>
-            > NEURO : TDAH + TSA + HPI<br>
+            > STATUT : Candidat plus qu'original #FR<br>
+            > OBJECTIF : Stage de 3 mois en tant que Market Risk Analyst<br>
+            > ORIGINE : Lasson, Normandie (autrement dit from Scratch)<br>
+            > BAC : 10.25/20 grâce à mon beau sourire<br>
+            > NEURO : #Confidentiel on en parlera pendant l'entretien...<br>
             > ÉCOLE : Non-target
         </p>
     </div>
